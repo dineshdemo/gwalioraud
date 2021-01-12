@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+}
+.msg{
+    background-color: rgb(209, 227, 235);
+    border: 1px solid grey;
+    padding: 5px;
+    margin-top:5px;
+    
+}
+/*  start navbar */
+.navbar{
+    background-color: black;
+}
+.navbar .navbrand{
+
+}
+.navbar .navbrand h2 span{
+    color: crimson;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.navbar .navbrand h2{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar .navoption ul li{
+    display: inline;
+    padding: 0px 8px 0px 8px;
+}
+.navbar .navoption ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar .navoption ul li a:hover{
+    color: crimson;
+}
+/* start second container */
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    background-image: url(../image/cover1.jpg);
+    z-index: 1;
+    
+}
+.second-container::after{
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+    opacity: .8;
+    z-index: -1;
+
+   
+}
+
+.second-container h1{
+    font-size: 5em;
+    color: white;
+    
+}
+.second-container h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+.second-container h2{
+    color: white;
+}
+.second-container a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+    color: white;
+    padding: 8px 15px 8px 15px;
+    background-color: black;
+    opacity: 0.8;
+    
+}
+.second-container a:hover{
+    background-color: crimson;
+    color: white;
+    border: 1px solid crimson;
+    color: white;
+
+}
+/* start third continer */
+.third-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+
+}
+.third-container .tc-first{
+    width: 80vw;
+}
+.third-container .tc-first h1{
+    color: black;
+    
+    letter-spacing: 1px;
+
+}
+
+.third-container .tc-first h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+.third-container .tc-first p{
+    display: flex;
+    align-items: center;
+    color: grey;
+}   
+
+/* FOURTH CONTAINER */
+.fourth-maincontainer{
+    display: flex;
+    justify-content: center;
+}
+.fourth-container{
+    background-color: rgb(157, 181, 224);
+    width: 97vw;
+    height: auto;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px ;
+    padding: 30px;
+}    
+.fourth-container img{
+    height: 30vh;
+    width: 20vw;
+   padding: 10px;
+}
+.fourth-container .fc-first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fourth-container .fc-first h1{
+    color: black;
+    padding-bottom: 30px;
+    
+}
+.fourth-container .fc-first h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+.fourth-container .fc-first .fc-first-card{
+    position: relative;
+    border: 1px solid grey;
+    margin: 20px;
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    background-image: url(../image/cover1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    box-shadow: -5px -5px 10px grey;
+    overflow: hidden;
+}
+.fourth-container .fc-first .fc-first-card::after{
+    position: absolute;
+    content: '';
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    opacity: .8;
+}
+.fourth-container .fc-first .fc-first-card h3{
+    padding: px;
+    color: crimson;
+    font-weight: bolder;
+}
+.fourth-container .fc-first .fc-first-card p{
+
+    color: white;
+    
+}
+/* start fivth container */
+.fivth-maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fivth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(221, 217, 217);
+    margin-top: 30px;
+    
+    
+}
+.fivth-container .fvc-first h1{
+    padding: 30px 0px 20px 0px;
+    color: black;
+}
+.fivth-container .fvc-first h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+.fivth-container .fvc-second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 98vw;
+    box-sizing: border-box;
+}
+.fivth-container .fvc-second-card{
+    margin-top: 20px;
+}
+.fivth-container img{
+    height: 65vh;
+    width: 25vw;
+    box-sizing: border-box;
+    
+    box-shadow: -1px -1px 7px 8px whitesmoke;
+}
+.fivth-container .fvc-second h3{
+    position: relative;
+    bottom: 75px;
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 33px 0px 33px;
+    font-weight: bolder;
+    color: whitesmoke;
+    opacity: 0.5;
+
+}
+/* sixth container */
+.sixth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.sixth-container h1{
+    margin: 50px 0px 50px 0px;
+    color: black;
+}
+.sixth-container h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+.sixth-container .sc-second{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.sixth-container .sc-second-card{
+    
+    margin: 20px;
+    border: 1px solid grey;
+    background-color: crimson;
+    border-radius: 5px ;
+    opacity: 0.8;
+}
+.sixth-container .sc-second img{
+    height: 40vh;
+    width: 20vw;
+    margin: 10px 0px 10px 0px;
+    border: 10px solid whitesmoke;
+    position: relative;
+    bottom: 50px;
+}
+.sixth-container .sc-second h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.sixth-container .sc-second h5{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+/* seventh container */
+.seventh-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.seventh-container h1{
+    margin: 40px 0px 40px 0px;
+}
+.seventh-container h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+
+.seventh-container .svc-second video{
+    margin: 30px;
+    border: 1px solid grey;
+}
+/* eighth container */
+.contactus {
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.contactus .container1{
+    background-color: rgb(39, 39, 240);
+    text-align: center;
+    width: 100vw;
+    height: 90vh;
+   
+  
+    justify-content: center;
+
+}
+.contactus .container1 input{
+    width: 50vw;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+   
+
+}
+.contactus .container1 textarea{
+    width: 50vw;
+    margin-top: 15px;
+} 
+.contactus .container1 button{
+    padding: 7px ;
+    width: 50.2vw;
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: whitesmoke;
+    margin: 0px 0px 20px 0px;
+}
+.contactus .container1 button:hover{
+    background-color: rgb(161, 12, 42);
+    border: 1px solid rgb(161, 12, 42);
+    color: white;
+   
+}
+.contactus .container1 form{
+    margin-top: 30px;
+}
+.contactus .container1 h1{
+    color: whitesmoke;
+    position: relative;
+    top: 25px;
+    font-weight: lighter
+
+}
+.contactus .container1 h1 span{
+    color: crimson;
+    font-weight: bolder;
+}
+/* FOOTER SECTION */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: dimgrey;
+}
+.footer h5{
+    color: white;
+    font-weight: bolder;
+}
+.footer-first{
+    padding: 20px;
+}
+.footer-first li{
+    padding-top: 10px;
+    
+}
+.footer-first img{
+    height: 80px;
+    width: 70px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.footer-first h6{
+    font-weight: bolder;
+}
+.copyright-section{
+    background-color: rgb(65, 63, 63);
+    
+}
+.copyright-section h6{
+    font-weight: bolder;
+    padding: 5px 0px 5px 5px;
+    color: white;
+}
+/* for registration page */
+.registration-container{
+    background-image: url(../image/cover3.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    z-index: 1;
+    display: flex;
+}
+.registration-container::after{
+    background-color: black;
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    left: 0px;
+    top: 0px;
+    opacity: .9;
+    z-index: -1;
+}
+
+.registration_second-container{
+    width: 40vw;
+    height: 90vh;
+    margin-left: 60px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+    box-shadow: -5px -5px 15px black;
+}
+.registration_second-container::after{
+    background-color: crimson;
+    width: 40vw;
+    height: 90vh;
+    position: absolute;
+    content: '';
+    opacity: .3;
+    z-index: -1;
+}
+
+.registration_second-container .r_scd-first h3{
+    color: white;
+}
+.registration_second-container .r_scd-first span{
+    color: crimson;
+    font-weight: bolder;
+}
+.registration_second-container .r_scd-second input{
+    padding: 3px 5px 3px 5px;
+    margin-top: 10px;
+}
+.registration_second-container .portfolio-container{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    opacity: .7;
+   
+}
+
+
+
+.registration_second-container .r_scd-second .two{
+   width: 33.7vw;
+}
+/* registration validation */
+.registration_first-container{
+    padding: 330px 0px 50px 100px;
+    color: white;
+}
+/* ---------------------- admin-contactus page ----------------*/
+.admin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+}
+.admin-container .admin-first a{
+    color: white;
+    background-color: black;
+    opacity: .8;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+}
+.admin-container .admin-first a:hover{
+    color: white;
+    background-color: crimson;
+    
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    
+}
+.admin-container .admin-second{
+    margin: 20px 0px 20px 0px;
+}
+/* --------------------admin login page-------------------------*/
+.logincontainer{
+    background-color: rgb(219, 207, 207);
+    width: 100vw;
+    height: 90vh;
+}
+.logincontainer .container{
+    width: 45vw;
+    height: 50vh;
+    background-color: white;
+    
+    position: relative;
+    top: 100px;
+    border: 1px solid skyblue;
+}
+.logincontainer form{
+    position: relative;
+    top: 40px;
+}
+.logincontainer input{
+    
+    border: 1px solid skyblue;
+}
+/* admin-registration-view page  */
+.admin-second-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+ border: 1px solid grey;
+ box-shadow: 5px 5px 5px grey;
+ position: relative;
+ z-index: 1;
+ height: 49.5vh;
+ width: 40vw;
+ background-color: crimson;
+ margin: 10px;
+ 
+}
+.card::after{
+    background-color: black;
+    content: '';
+    height: 49vh;
+    width: 30.8vw;
+    opacity: .9;
+    position: absolute;
+    z-index: -1;
+
+
+}
+.card .card-heading{
+    display: flex;
+}
+.card .card-heading .card-heading-detail{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: whitesmoke;
+
+}
